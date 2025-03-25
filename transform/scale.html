@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS transform scale 예제</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: mediumseagreen;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.5);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>마우스를 박스 위에 올려보세요!</h2>
+  <div class="box">Box</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>translate 실습</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: steelblue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease; /* 애니메이션 효과 */
+    }
+
+    .box:hover {
+      transform: translate(50px, 50px);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>마우스를 박스에 올려보세요!</h2>
+  <div class="box">Box</div>
+
+</body>
+</html>

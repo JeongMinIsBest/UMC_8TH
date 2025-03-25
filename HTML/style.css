@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+  }
+  
+  h1 {
+    color: #ff6600;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  .block {
+    display: block;
+    background-color: #ffdd99;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .inline {
+    display: inline;
+    background-color: #99ccff;
+    padding: 20px; /* inline은 크기와 패딩 조절이 제한적이다 */
+    width: 200px;  /* width가 적용되지 않는다 */
+  }
+  
+  .inline-block {
+    display: inline-block;
+    background-color: #ccffcc;
+    padding: 20px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
