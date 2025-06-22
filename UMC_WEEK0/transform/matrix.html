@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrix Transform 실습</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: lightseagreen;
+      margin: 50px;
+      transition: transform 0.5s;
+    }
+
+    .box:hover {
+      /* x축 1배, y축 0.5 기울기 / x축 0.5 기울기, y축 1배 / 이동 없음 */
+      transform: matrix(1, 0.5, 0.5, 1, 0, 0);
+    }
+  </style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>
